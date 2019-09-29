@@ -1,0 +1,24 @@
+{
+    "name": "Testvendor/Testpackage",
+    "description": "Test Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zahid hasan",
+            "email": "zahiislink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Testvendor\\Testpackage\\TestpackageServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "Testvendor\\Testpackage\\Facades\\Usaddress"
+            }
+        }
+    }
+}
