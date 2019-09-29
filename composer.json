@@ -1,5 +1,5 @@
 {
-    "name": "Testvendor/Testpackage",
+    "name": "zahidcse/hello",
     "description": "Test Package",
     "type": "project",
     "license": "MIT",
@@ -11,14 +11,4 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Testvendor\\Testpackage\\TestpackageServiceProvider"
-            ],
-            "aliases": {
-                "Cart": "Testvendor\\Testpackage\\Facades\\Usaddress"
-            }
-        }
-    }
 }
