@@ -1,7 +1,7 @@
 <?php
 namespace Zahidcse\Hello;
 use Illuminate\Support\ServiceProvider;
-classHelloServiceProvider extends ServiceProvider
+class HelloServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
