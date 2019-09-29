@@ -1,21 +1,22 @@
-{
+ {
     "name": "zahidcse/hello",
-    "description": "Testing app",
-    "license": "MIT",
+    "description": "Simple 'Hello, world!' Laravel package",
+	"keywords": ["hello", "world"],
+	"license": "MIT",
     "authors": [
         {
-            "name": "Zahid hasan",
-            "email": "zahiislink@gmail.com"
+            "name": "zahid hasan",
+            "email": "zhiislink@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.0.*"
     },
     "autoload": {
-            "psr-4": {
-                "Zahidcse\\Hello\\": "src/"
-            }
+        "psr-4": {
+            "Zahidcse\\Hello\\": "src/"
         }
+    },
+    "minimum-stability": "stable"
 }
