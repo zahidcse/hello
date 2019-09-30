@@ -1,24 +1,38 @@
  {
     "name": "zahidcse/hello",
-    "description": "Simple 'Hello, world!' Laravel package",
-	"keywords": ["hello", "world"],
-	"license": "MIT",
-    "authors": [
-        {
-            "name": "zahid hasan",
-            "email": "zhiislink@gmail.com"
-        }
+    "description": "Run console commands via a web form in Laravel.",
+    "type": "library",
+    "keywords": [
+        "utilities",
+        "waygou",
+        "laravel",
+        "php"
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.0.*"
+        "php": "^7.1",
+        "illuminate/support": "5.6.*|5.7.*",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
     },
     "autoload": {
         "psr-4": {
             "Zahidcse\\Hello\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
-	
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zahidcse\\Hello\\HelloServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zahid Hasan",
+            "email": "zahiislink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
