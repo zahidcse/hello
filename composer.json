@@ -17,6 +17,8 @@
         "psr-4": {
             "Zahidcse\\Hello\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
+    "minimum-stability": "stable",
+    "prefer-stable": true
+	
 }
